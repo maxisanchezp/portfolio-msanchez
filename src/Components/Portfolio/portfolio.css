@@ -52,14 +52,16 @@ body {
     overflow-y: auto;
 }
 
-.hcertificados, .heducacion{
+.hcertificados, .heducacion {
     text-decoration: underline;
     font-size: 30px;
+    margin-bottom: 20px; /* Ajusta el espacio después de los títulos */
 }
+
 
 .container_right h2{
     height: 20px;
-    font-size: 25px;
+    font-size: 20px;
 }
 
 .container_right h3{
@@ -71,7 +73,8 @@ body {
 .container_right a {
     font-size: 15px;
     color: gray;
-    transition: font-size 1.2s, color 1.2s, background-color 1.2s; /* Corregimos la propiedad transition */
+    transition: font-size 1.2s, color 1.2s, background-color 1.2s;
+    margin-bottom: 10px; /* Ajusta el espacio entre los enlaces */
 }
 
 .container_right a:hover {
@@ -149,4 +152,8 @@ a {
 
 .certificados{
     padding-top: 20px;
+}
+
+.certificados li {
+    margin-bottom: 30px; /* Ajusta el espacio entre los elementos de la lista */
 }
