@@ -69,6 +69,7 @@ const Portfolio = () => {
         </div>
         <div className="experience">
           <ul>
+          <h1 className="hexperiencia">Experiencia</h1>
             <li>
               <h1>Soporte TIC - Corporacion Siegfried Paraguay</h1>
                 <h2>Julio, 2023 - Actualmente</h2>
@@ -77,9 +78,24 @@ const Portfolio = () => {
             </li>
             <li>
               <h1>Auxiliar Informatico - Walton Capital S.A.</h1>
-              <h2>Febrero, 2020 - Junio</h2>
+              <h2>Febrero, 2020 - Junio 2022</h2>
               <p>Conceptos basicos de manejos de Bases de Datos y reportes utilizando SQL.</p>
             </li>
+          </ul>
+        </div>
+
+        <div className="proyectos">
+          <ul className="lproyectol">
+            <h1 className='hproyectos'>Proyectos</h1>
+            <li>Aqui iré añadiendo proyectos a medida que vaya terminando o realizando nuevos proyectos :) </li>
+          </ul>
+        </div>
+
+        <div className="contacto">
+          <ul className="contactos">
+            <h1 className='hcontacto'>Contacto</h1>
+            <li>Correo Electrónico : maxisanchez2001py@gmail.com</li>
+            <li>Numero de Teléfono: +595981730558</li>
           </ul>
         </div>
       </div>

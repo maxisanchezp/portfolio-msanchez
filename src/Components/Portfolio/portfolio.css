@@ -52,9 +52,9 @@ body {
     overflow-y: auto;
 }
 
-.hcertificados, .heducacion {
+.hcertificados, .heducacion, .hcontacto, .hexperiencia, .hproyectos {
     text-decoration: underline;
-    font-size: 30px;
+    font-size: 35px;
     margin-bottom: 20px; /* Ajusta el espacio después de los títulos */
 }
 
@@ -156,4 +156,24 @@ a {
 
 .certificados li {
     margin-bottom: 30px; /* Ajusta el espacio entre los elementos de la lista */
+}
+
+.contacto{
+    padding-top: 20px;
+}
+
+.contacto li{
+    padding-bottom: 20px;
+    font-size: 20px;
+    list-style-type: none;
+}
+
+.proyectos li{
+    padding-bottom: 20px;
+    font-size: 20px;
+    list-style-type: none;
+}
+
+.proyectos{
+    padding-top: 20px;
 }
