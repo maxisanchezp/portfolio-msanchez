@@ -21,7 +21,7 @@ const Portfolio = () => {
         </p>
         <div className="links">
           <img
-            src="https://media.licdn.com/dms/image/D4D03AQFQtXfGyaeJcw/profile-displayphoto-shrink_200_200/0/1678213701342?e=1706140800&v=beta&t=mnbdSgEnY5Ra5oETKu52DRBYPVySmv3bPx13aFnYvhg"
+            src={require("./Assets/ola.png")}
             alt=""
             className="fotico"
           />
@@ -81,6 +81,7 @@ const Portfolio = () => {
           <ul className="certificados">
             <h1 className="hcertificados">Certificados</h1>
             <li>
+              
               <h2>
                 Aprende Javascript ES9, HTML, CSS3 y NodeJS desde cero (Udemy)
               </h2>
@@ -135,8 +136,11 @@ const Portfolio = () => {
           <ul className="lproyectol">
             <h1 className="hproyectos">Proyectos</h1>
             <li>
-              Aqui iré añadiendo proyectos a medida que vaya terminando o
-              realizando nuevos proyectos :){" "}
+              <h2>App para consultar clima</h2>
+                <p>
+                Aplicacion web desarrollada con React que permite al usuario consultar el clima de cualquier ciudad del mundo ingresando el nombre de la misma.
+                Todo esto utilizando la API de OpenWeatherMap.
+                </p>
             </li>
           </ul>
         </div>

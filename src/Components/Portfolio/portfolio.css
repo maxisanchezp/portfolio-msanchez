@@ -90,8 +90,9 @@ body {
 }
 
 .fotico {
-    height: 70px;
-    border-radius: 50px;
+    width: 180px;
+    height: 180px;
+    border-radius: 100px;
 }
 
 .linkedinImg,
