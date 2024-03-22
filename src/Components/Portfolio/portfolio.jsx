@@ -136,7 +136,7 @@ const Portfolio = () => {
           <ul className="lproyectol">
             <h1 className="hproyectos">Proyectos</h1>
             <li>
-              <h2>App para consultar clima</h2>
+              <h2 className="appClima"><a href="https://maxisanchezp.github.io/weather-app/" target="blank">App para consultar clima</a></h2>
                 <p>
                 Aplicacion web desarrollada con React que permite al usuario consultar el clima de cualquier ciudad del mundo ingresando el nombre de la misma.
                 Todo esto utilizando la API de OpenWeatherMap.
