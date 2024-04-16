@@ -25,17 +25,17 @@ body {
     overflow-y: auto;
 }
 
-.container_left h1 {
-    font-size: 55px;
+.name {
+    font-size: 6vh;
     margin-bottom: 10px;
 }
 
 .container_left h2 {
-    font-size: 35px;
+    font-size: 5vh;
 }
 
 .container_left p {
-    font-size: 20px;
+    font-size: 2.4vh;
     color: rgb(139, 139, 139);
 }
 
@@ -90,8 +90,8 @@ body {
 }
 
 .fotico {
-    width: 180px;
-    height: 180px;
+    width: 12vh;
+    height: 12vh;
     border-radius: 100px;
 }
 
@@ -178,3 +178,21 @@ a {
 .proyectos{
     padding-top: 20px;
 }
+
+
+@media only screen and (max-width: 768px) {
+    .container {
+      flex-direction: column;
+    }
+  
+    .container_left,
+    .container_right {
+      width: 100%;
+      margin-left: 0;
+      padding: 20px;
+      position: static;
+    }
+  }
+  
+  /* Add more media queries as needed for different screen sizes */
+  

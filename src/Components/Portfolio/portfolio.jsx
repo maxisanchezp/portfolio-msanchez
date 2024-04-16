@@ -5,7 +5,7 @@ const Portfolio = () => {
   return (
     <div className="container">
       <div className="container_left">
-        <h1>Maximiliano Sánchez</h1>
+        <h1 className="name">Maximiliano Sánchez</h1>
         <h2>Desarrollador Front-End Junior</h2>
         <p>
           Formándome actualmente en la carrera de Ingeniería en Informática en
@@ -118,7 +118,7 @@ const Portfolio = () => {
               <p>
                 Trabajo de Soporte Técnico para todas las herramientas de la
                 corporación, manejo de sistemas operativos como Windows y Linux,
-                participación en proyectos, etc.
+                participación en proyectos, Introducción al desarrollo en Power Automate.
               </p>
             </li>
             <li>
@@ -142,6 +142,21 @@ const Portfolio = () => {
                 Todo esto utilizando la API de OpenWeatherMap.
                 </p>
             </li>
+            
+            <li>
+              <h2 className="appClima"><a href="https://maxisanchezp.github.io/ToDoList_msanchez" target="blank">Lista ToDo</a></h2>
+                <p>
+                Aplicación desarrollada con React que da la posibilidad de registrar actividades, dando la posibilidad de crear, listar, 
+                eliminar una (o todas) las actividades.
+                </p>
+            </li>
+
+            <li>
+              <h2 className="appClima"><a href="https://maxisanchezp.github.io/rpgGame/" target="blank">Juego RPG</a></h2>
+                <p>
+                Desarrollado simplemente con JavasScript como parte de un ejercicio práctico de lógica en la pagina de FreeCodeCamp
+                </p>
+            </li>
           </ul>
         </div>
 
@@ -149,7 +164,6 @@ const Portfolio = () => {
           <ul className="contactos">
             <h1 className="hcontacto">Contacto</h1>
             <li>Correo Electrónico : maxisanchez2001py@gmail.com</li>
-            <li>Numero de Teléfono: +595981730558</li>
           </ul>
         </div>
       </div>
