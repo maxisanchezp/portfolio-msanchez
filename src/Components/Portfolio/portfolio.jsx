@@ -6,13 +6,13 @@ const Portfolio = () => {
     <div className="container">
       <div className="container_left">
         <h1 className="name">Maximiliano Sánchez</h1>
-        <h2>Desarrollador Front-End Junior</h2>
+        <h2>Desarrollador Junior</h2>
         <p>
           Formándome actualmente en la carrera de Ingeniería en Informática en
           la Universidad Columbia del Paraguay. Mi enfoque principal se centra
           en el área del Front End, donde estoy capacitándome y adquiriendo
           habilidades en HTML5, CSS, JavaScript y React para el desarrollo de
-          aplicaciones web.
+          aplicaciones web. Además me estoy capacitando en Python.
         </p>
         <p>
           Mi pasión por la tecnología, el deseo de seguir aprendiendo y el poder
