@@ -39,7 +39,6 @@ body {
     color: rgb(139, 139, 139);
 }
 
-
 .container_right {
     color: white;
     margin-top: 20px;
@@ -58,13 +57,12 @@ body {
     margin-bottom: 20px; /* Ajusta el espacio después de los títulos */
 }
 
-
-.container_right h2{
+.container_right h2 {
     height: 20px;
     font-size: 20px;
 }
 
-.container_right h3{
+.container_right h3 {
     font-size: 13px;
     font-weight: bold;
     color: rgb(139, 139, 139);
@@ -87,19 +85,18 @@ body {
     margin-top: 50px;
     display: flex;
     align-items: center;
+    flex-wrap: wrap; /* Permite que los elementos se ajusten en pantallas más pequeñas */
 }
 
 .fotico {
     width: 12vh;
     height: 12vh;
     border-radius: 100px;
+    margin-right: 20px; /* Ajusta el espacio entre la imagen y los íconos */
 }
-
-
 
 .linkedinImg,
 .twtImg {
-    padding-left: 30px;
     height: 20px;
     margin-left: 20px;
 }
@@ -113,11 +110,9 @@ body {
     transition: font-size 1.3s;
 }
 
-
-.linkedin:hover,.twitter:hover{
+.linkedin:hover,.twitter:hover {
     font-size: 25px;
 }
-
 
 .items {
     padding-left: 0px;
@@ -147,11 +142,11 @@ a {
     margin-right: 0px;
 }
 
-.aboutMe{
+.aboutMe {
     padding-bottom: 20px;
 }
 
-.certificados{
+.certificados {
     padding-top: 20px;
 }
 
@@ -159,40 +154,138 @@ a {
     margin-bottom: 30px; /* Ajusta el espacio entre los elementos de la lista */
 }
 
-.contacto{
+.contacto {
     padding-top: 20px;
 }
 
-.contacto li{
+.contacto li {
     padding-bottom: 20px;
     font-size: 20px;
     list-style-type: none;
 }
 
-.proyectos li{
+.proyectos li {
     padding-bottom: 20px;
     font-size: 20px;
     list-style-type: none;
 }
 
-.proyectos{
+.proyectos {
     padding-top: 20px;
 }
 
+@media only screen and (max-width: 1024px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .container_left,
+    .container_right {
+        width: 100%;
+        margin-left: 0;
+        padding: 20px;
+        position: static;
+    }
+
+    .name {
+        font-size: 4vh;
+    }
+
+    .container_left h2 {
+        font-size: 3.5vh;
+    }
+
+    .container_left p {
+        font-size: 2vh;
+    }
+
+    .container_right h2 {
+        font-size: 18px;
+    }
+
+    .container_right h3 {
+        font-size: 12px;
+    }
+
+    .container_right a {
+        font-size: 14px;
+    }
+
+    .container_right a:hover {
+        font-size: 18px;
+    }
+
+    .hcertificados, .heducacion, .hcontacto, .hexperiencia, .hproyectos {
+        font-size: 28px;
+    }
+
+}
 
 @media only screen and (max-width: 768px) {
     .container {
-      flex-direction: column;
+        flex-direction: column;
     }
-  
+
     .container_left,
     .container_right {
-      width: 100%;
-      margin-left: 0;
-      padding: 20px;
-      position: static;
+        width: 100%;
+        margin-left: 0;
+        padding: 20px;
+        position: static;
     }
-  }
-  
-  /* Add more media queries as needed for different screen sizes */
-  
+
+    .name {
+        font-size: 4vh;
+    }
+
+    .container_left h2 {
+        font-size: 3.5vh;
+    }
+
+    .container_left p {
+        font-size: 2vh;
+    }
+
+    .container_right h2 {
+        font-size: 18px;
+    }
+
+    .container_right h3 {
+        font-size: 12px;
+    }
+
+    .container_right a {
+        font-size: 14px;
+    }
+
+    .container_right a:hover {
+        font-size: 18px;
+    }
+
+    .hcertificados, .heducacion, .hcontacto, .hexperiencia, .hproyectos {
+        font-size: 25px;
+    }
+
+    .links {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .ola{
+        margin-bottom: 60px;
+    }
+    
+    .ola2{
+        margin-bottom: 60px;
+    }
+
+    .fotico {
+        margin-bottom: 20px;
+    }
+
+    .linkedinImg,
+    .twtImg {
+        margin-left: 0;
+        margin-bottom: 10px;
+    }
+}
