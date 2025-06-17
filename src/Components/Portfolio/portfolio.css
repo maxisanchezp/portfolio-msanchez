@@ -1,0 +1,272 @@
+/* ----------------- Base ----------------- */
+body {
+  font-family: "Montserrat", sans-serif;
+  width: 100%;
+  height: 100vh;
+  background-image: radial-gradient(circle, black, rgb(36, 35, 35));
+  margin: 0;
+  overflow-x: hidden;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+/* ----------------- Contenedores ----------------- */
+.container {
+  display: flex;
+}
+
+.container_left {
+  color: white;
+  padding: 0 20px 0 100px;
+  text-align: left;
+  box-sizing: border-box;
+  width: 40%;
+  min-height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  overflow-y: auto;
+}
+
+.container_right {
+  color: white;
+  margin-top: 20px;
+  padding: 0 20px 0 10px;
+  text-align: left;
+  box-sizing: border-box;
+  width: 60%;
+  margin-left: 40%;
+  overflow-y: auto;
+}
+
+/* ----------------- Títulos ----------------- */
+.name {
+  font-size: 6vh;
+  margin-bottom: 10px;
+}
+
+.subtitle {
+  font-size: 3vh;
+  margin-top: 0;
+}
+
+.section-title {
+  text-decoration: underline;
+  font-size: 35px;
+  margin-bottom: 20px;
+  color: white;
+}
+
+/* ----------------- Textos ----------------- */
+.container_left p {
+  font-size: 2vh;
+  color: rgb(139, 139, 139);
+}
+
+.container_right h2 {
+  margin: 8px 0;
+}
+
+.container_right h3 {
+  font-size: 25px;
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+}
+
+.container_right h4 {
+  font-size: 15px;
+  font-weight: bold;
+  color: gray;
+}
+
+.container_right a {
+  font-size: 15px;
+  color: gray;
+  transition: font-size 1.2s, color 1.2s, background-color 1.2s;
+  margin-bottom: 10px;
+  display: inline-block;
+}
+
+.container_right a:hover {
+  font-size: 22px;
+  color: black;
+  background-color: white;
+}
+
+/* ----------------- Listas ----------------- */
+ul {
+  padding-left: 0;
+  list-style-type: none;
+}
+
+/* ----------------- Secciones ----------------- */
+.aboutMe {
+  padding-bottom: 20px;
+}
+
+.certificados,
+.contacto,
+.projects {
+  padding-top: 5px;
+}
+
+.certificados li,
+.contacto li,
+.projects li {
+  font-size: 20px;
+}
+
+.certificados li {
+  margin-bottom: 30px;
+}
+
+.project-name {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/* ----------------- Redes Sociales ----------------- */
+.links {
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.fotico {
+  width: 12vh;
+  height: 12vh;
+  border-radius: 100px;
+  margin-right: 20px;
+}
+
+.linkedinImg,
+.twtImg {
+  height: 20px;
+  margin-left: 20px;
+}
+
+.linkedin,
+.twitter {
+  padding-left: 15px;
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  transition: font-size 1.3s;
+}
+
+.linkedin:hover,
+.twitter:hover {
+  font-size: 25px;
+}
+
+/* ----------------- Responsive ----------------- */
+@media only screen and (max-width: 1024px) {
+  .container {
+    flex-direction: column;
+  }
+
+  .container_left,
+  .container_right {
+    width: 100%;
+    margin-left: 0;
+    padding: 20px;
+    position: static;
+  }
+
+  .name {
+    font-size: 4vh;
+  }
+
+  .subtitle {
+    font-size: 3.5vh;
+  }
+
+  .container_left p {
+    font-size: 2vh;
+  }
+
+  .container_right h2 {
+    font-size: 18px;
+  }
+
+  .container_right h3 {
+    font-size: 12px;
+  }
+
+  .container_right a {
+    font-size: 14px;
+  }
+
+  .container_right a:hover {
+    font-size: 18px;
+  }
+
+  .section-title {
+    font-size: 28px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .container {
+    flex-direction: column;
+  }
+
+  .container_left,
+  .container_right {
+    width: 100%;
+    margin-left: 0;
+    padding: 20px;
+    position: static;
+  }
+
+  .name {
+    font-size: 4vh;
+  }
+
+  .subtitle {
+    font-size: 3.5vh;
+  }
+
+  .container_left p {
+    font-size: 2vh;
+  }
+
+  .container_right h2 {
+    font-size: 18px;
+  }
+
+  .container_right h3 {
+    font-size: 12px;
+  }
+
+  .container_right a {
+    font-size: 14px;
+  }
+
+  .container_right a:hover {
+    font-size: 18px;
+  }
+
+  .section-title {
+    font-size: 25px;
+  }
+
+  .links {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .fotico {
+    margin-bottom: 20px;
+  }
+
+  .linkedinImg,
+  .twtImg {
+    margin-left: 0;
+    margin-bottom: 10px;
+  }
+}
