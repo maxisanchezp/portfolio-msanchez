@@ -7,7 +7,7 @@ const Portfolio = () => {
       <div className="container_left">
         <h1 className="name">Maximiliano Sánchez</h1>
         <h2 className="subtitle">
-          Python & WordPress Developer specialized in Back-End and Web Solutions
+          Python Back-End Developer & WordPress Specialist{" "}
         </h2>
         <p>
           I'm a Software Engineer focused on Back-End development with Python,
@@ -28,8 +28,16 @@ const Portfolio = () => {
           digital solutions.
         </p>
         <div className="links">
-          <img src={require("../Assets/ola.png")} alt="Maximiliano Sánchez" className="fotico" />
-          <img src={require("../Assets/icons8-linkedin-50(1).png")} alt="LinkedIn icon" className="linkedinImg" />
+          <img
+            src={require("../Assets/ola.png")}
+            alt="Maximiliano Sánchez"
+            className="fotico"
+          />
+          <img
+            src={require("../Assets/icons8-linkedin-50(1).png")}
+            alt="LinkedIn icon"
+            className="linkedinImg"
+          />
           <a
             href="https://www.linkedin.com/in/maxisanchezp/"
             target="_blank"
@@ -38,7 +46,11 @@ const Portfolio = () => {
           >
             LinkedIn
           </a>
-          <img src={require("../Assets/icons8-github-30.png")} alt="Github icon" className="twtImg" />
+          <img
+            src={require("../Assets/icons8-github-30.png")}
+            alt="Github icon"
+            className="twtImg"
+          />
           <a
             href="https://github.com/maxisanchezp"
             target="_blank"
@@ -85,13 +97,14 @@ const Portfolio = () => {
 
               <li>
                 <h3 className="ola">
-                  The Complete Python Bootcamp From Zero to Hero in Python (Udemy)
+                  The Complete Python Bootcamp From Zero to Hero in Python
+                  (Udemy)
                 </h3>
                 <p>
                   Basic Python concepts such as data types (lists, dictionaries,
-                  tuples, etc.), control structures, and more advanced topics like
-                  OOP, file analysis (PDFs, CSVs), email handling (sending and
-                  receiving), and web scraping.
+                  tuples, etc.), control structures, and more advanced topics
+                  like OOP, file analysis (PDFs, CSVs), email handling (sending
+                  and receiving), and web scraping.
                 </p>
                 <a
                   href="https://www.udemy.com/certificate/UC-0d521c32-13c7-4f60-b63d-fc5bb9836b10/"
